@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <form action="#">
+            <fieldset>
+                <legend>New User Signup:</legend>
+                <div class="form-group">
+                    <div class="left">
+                        <label for="name" class="title">Name</label>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="name" size="16">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="form-group">
+                     <div class="left">
+                        <label for="gender" class="title">Gender</label>
+                     </div>
+                     <div class="right">
+                        <input type="radio" name="gender" value="Male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" value="female">
+                       <label for="female">Female</label>
+                     </div>
+                     <div class="clear"></div>    
+                </div>
+                <div class="form-group">
+                    <div class="left">
+                        <label for="age" class="title">Age</label>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="age" size="6">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="form-group">
+                    <div class="left">
+                        <label for="personality" class="title">Personality type</label>
+                    </div>
+                    <div class="right"> 
+                        <input type="text" name="personality" size="6"> <span>(Don't know your type?)</span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+             
+                <div class="form-group">
+                   <div class="left">
+                    <label for="os" class="title">Favorite OS</label>
+                   </div>
+                   <div class="right">
+                    <select name="os" id="os">
+                        <option value="Windows">Windows</option>
+                        <option value="Mac">Mac</option>
+                        <option value="Linux">Linux</option>
+                    </select>
+                   </div>
+                   <div class="clear"></div>
+                </div>
+                <div class="form-group">
+                    <div class="left">
+                        <label for="seekingAge" class="title">Seeking Age</label>
+                    </div>
+                   <div class="right">
+                    <input type="text" size="6" name="min" placeholder="Min">
+                    <label for="to">To</label>
+                    <input type="text" size="6" name="max" placeholder="Max">
+                   </div>
+                   <div class="clear"></div>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Sign Up">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

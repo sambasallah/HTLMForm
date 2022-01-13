@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    width: 100%;
+}
+
+#container {
+    width: 40%;
+    margin: 30px auto;
+}
+
+
+
+#container fieldset {
+    padding: 30px 0px;
+    background-color: rgb(138, 180, 248);
+}
+
+
+#container fieldset legend {
+    padding: 5px;
+    background-color: #e3e3e3;
+    font-weight: lighter;
+    border: 2px solid rgb(168, 162, 162);
+    margin-left: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.form-group {
+    width: 96%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.form-group .clear {
+    clear: both;
+}
+
+.form-group .left  {
+    width: 20%;
+    float: left;
+}
+
+.form-group .left label {
+    font-weight: 500;
+    font-weight: 20px;
+    font-family: sans-serif;
+}
+
+.form-group .right {
+    width: 80%;
+    float: right;
+}
+
+.form-group .block {
+    display: inline-block;
+    width: 100%;
+}
+
+.form-group input[type=submit] {
+   font-size: 18px;
+   padding: 2px;
+    background-color: pink;
+    font-weight: bold;
+}
+
+.form-group input[name=min], input[name=max] {
+    border: 2px solid rgb(168, 162, 162);
+    width: 60px;
+    height: 20px;
+}
+
+.form-group input[type=text] {
+    border: 2px solid rgb(168, 162, 162);
+    height: 23px;
+    padding-left: 8px;
+}
+
+.form-group .right select:after {
+    width: 0; 
+    height: 0; 
+}
+
+.form-group .right span {
+    color: rgb(204, 115, 130);
+}
